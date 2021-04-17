@@ -27,7 +27,7 @@ def video_show():
     t.start()
 
 root = Tk() # 初始化Tk()
-root.title("服创开发图片集标记工具-Made by 祁盼")    # 设置窗口标题
+root.title("服创开发图片集标记工具-Made by Sensorjang")    # 设置窗口标题
 root.geometry("1000x800")    # 设置窗口大小 注意：是x 不是*
 root.resizable(width=True, height=True) # 设置窗口是否可以变化长/宽，False不可变，True可变，默认为True
 root.tk.eval('package require Tix')  #引入升级包，这样才能使用升级的组合控件
